@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img{max-width: 100%;}
+ul{ list-style: none;}
+a{text-decoration: none;}
+h1,h2{font-size: 1.5em; color:#222222}
+p{ font-size: 1em; color:#777}
+
+/*CABEÇALHO **/
+
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #13c7ae;
+    
+}
+
+.cabecalho form {
+    width: 30%;
+    float: right;
+}
+.cabecalho input[type="text"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 5px 0 0 5px;
+    
+}
+
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: #0cae98;
+    color:#fff;
+    border-radius: 5px;
+    
+ 
+}
+
+.logo a {
+    width: 221px;
+    height: 48px;
+    float: left;
+    font-size: 0;
+    background: url(../img/logo.png) no-repeat;
+}
+
+.menu{
+    width: 100%;
+    float: left;
+    padding: 18px 8%;
+    background-color: #111;
+    color: #0cae98;
+}
+.menu li{
+    float: left;
+}
+
+.menu li a{ 
+    color: #9d9d9d;
+    margin-right: 25px; 
+    
+}
+
+.menu li a:hover{
+    color: #fff;
+}
+
+/*SOCIAL ICONS **/
+
+.social-icons{
+    float: right;
+}
+.social-icons a{
+    color: #fff;
+    margin-right: 5px;
+}
+
+.btn-facebook:hover{
+    color: #3b5998;
+}
+.btn-twitter:hover{
+    color: #54a4d6;
+}
+
+.btn-google:hover{
+    color:#d73d32;
+}
+
+/*PAGINA PRICIPAL **/
+
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0px;
+}
+
+.sobre h1{
+    margin-bottom: 15px;
+    
+    }
+    
+
+.sobre img{
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 7px;
+}
+
+.sobre p{
+    text-align: justify;
+}
+
+/*SIDEBAR **/
+.onde-estamos{
+    float: right;
+    width: 30%;
+    padding: 5px 10px;
+    background-color: #f5f5f5;
+    border-radius: 5%;
+
+}
+.onde-estamos p {
+    text-align: justify;
+
+}
+.onde-estamos iframe{
+   width: 100%;
+   height: 250px;
+   margin: 20px 0;
+}
+.onde-estamos li{
+    color: #777;
+    margin-bottom:  10px;
+}
+.onde-estamos i{
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.onde-estamos h1{
+    margin-top: 10px;
+}
+
+/*SECTION **/
+.newslatter{
+    width: 100%;
+    float: left;
+    background-color:#111;
+    padding: 40px 8%;
+    color: #fff;
+}
+.newslatter h1{
+    font-size: 1.8em;
+    color: #fff;
+}
+.newslatter p {
+    font-size: 1.2em;
+    color: #fff;
+}
+.newslatter form{
+    margin-top: 10px;
+
+}
+.newslatter input{
+    width: 40%;
+    margin-right: 1%;
+    padding: 12px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    background-color: initial;
+    float: left;
+}
+.newslatter button{
+    width: 18%;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+
+}
+.roda-pe {
+    width: 100%;
+    float: left;
+    background-color: #13c7ae;
+    padding: 10px 8%;
+    
+}
+.roda-pe p {
+    color: #fff;
+}
