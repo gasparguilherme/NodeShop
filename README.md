@@ -1,2 +1,2 @@
 # NodeShop
- Projeto executado durante Aula de CSS3
+Project created during css3 class.
